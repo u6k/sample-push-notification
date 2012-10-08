@@ -32,8 +32,10 @@ import com.google.android.gcm.server.Sender;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        String key = "AIzaSyB_6rJ-Vwb0TcixmdPEWb3sRgmc_2EBvCo";
-        String registrationId = "APA91bHXeRcx8YYYcZukYwEEpqlaGKDErAYQGZ8fcKBmVMEExSz-Ix23QVDwlEOaNfaAGXTS37D-1p2YTSC3pf7tEzMUSy2DCx9qpHfDkJQG6RwheTq54t-CdX8AFB4H4uP34CSChRHxAQAnh5iRwDBHAzs4_tFc9Q";
+        // TODO API Key
+        String key = "xxx";
+        // TODO GCM Registration ID
+        String registrationId = "xxx";
 
         Sender sender = new Sender(key);
         Message message = new Message.Builder().addData("message", "てすと").build();

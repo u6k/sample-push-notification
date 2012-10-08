@@ -34,7 +34,8 @@ import com.google.android.gcm.GCMBaseIntentService;
 
 public class GCMIntentService extends GCMBaseIntentService {
 
-    public static final String SENDER_ID = "884497848039";
+    // TODO SENDER_ID
+    public static final String SENDER_ID = "xxx";
 
     public GCMIntentService() {
         super(SENDER_ID);
